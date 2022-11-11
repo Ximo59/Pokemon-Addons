@@ -1,0 +1,24 @@
+.navigation {
+  ul {
+    display: flex;
+    margin-left: 40%;
+    width: 1000px;
+    font-size: 30px;
+
+    a {
+      text-decoration: none;
+      padding: 10px;
+
+      li {
+        color: black;
+        transition: 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          color: rgb(192, 185, 176);
+        }
+      }
+    }
+
+  }
+}

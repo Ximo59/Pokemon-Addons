@@ -1,0 +1,12 @@
+.poke-list {
+            margin-left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            width: 1750px;
+            height: 350px;
+            background-color: salmon;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            border-radius: 15px;
+            bottom: 450px;
+}
